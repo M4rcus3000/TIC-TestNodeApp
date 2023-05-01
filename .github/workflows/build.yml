@@ -1,6 +1,8 @@
-on : push
+name: Work1 Edgar
+on : [push]
+
 jobs:
-  build-node:
+  build:
     runs-on: ubuntu-lastest
     container: node 16
     steps:
